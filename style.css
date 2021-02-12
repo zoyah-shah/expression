@@ -1,0 +1,32 @@
+@font-face {
+    font-family: "Mayenne Sans Regular";
+    src: url("./assets/Mayenne_Sans-Regular_web.woff2") format("woff2");
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    height: 5000px;
+    overflow-x: hidden;
+    background: grey;
+}
+h1{
+    position: absolute;
+    font-family: "Mayenne Sans Regular";
+    color: rgb(43, 255, 0);
+    font-size: 100px;
+    left: 650px;
+    top: 300px;
+}
+
+p{
+    position: absolute;
+    left: 680px;
+    top: 500px;
+    color: rgb(238, 255, 0);
+    font-family: "Mayenne Sans Regular";
+}
+a{
+    text-decoration: none;
+    color: rgb(43, 255, 0);
+}
